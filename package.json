@@ -36,6 +36,12 @@
       "pre-commit": "lint-staged"
     }
   },
+  "lint-staged": {
+    "*.js": [
+      "eslint './src/**/*.{js,jsx}'",
+      "git add"
+    ]
+  },
   "devDependencies": {
     "eslint": "^8.2.0",
     "eslint-config-airbnb": "^19.0.4",

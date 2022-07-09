@@ -46,6 +46,7 @@ TableData.propTypes = {
       name: PropTypes.string,
       tagline: PropTypes.string,
       first_brewed: PropTypes.string,
+      [PropTypes.string]: PropTypes.string,
     }),
   ),
 };
